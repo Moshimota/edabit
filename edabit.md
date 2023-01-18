@@ -1,0 +1,109 @@
+[1,2.How Edabit Works](https://edabit.com/challenge/ARr5tA458o2tC9FTN)
+
+Solution
+
+```js
+function hello() {
+	return "hello edabit.com"
+	
+}
+```
+[3.Convert Minutes into Seconds](https://edabit.com/challenge/8q54MKnRrm89pSLmW)
+
+Solution
+
+```js
+function convert(minutes) {
+	return minutes*60
+}
+```
+
+[4.Return the Next Number from the Integer Passed](https://edabit.com/challenge/NAQhEoxbofPidLxm9)
+
+Solution
+
+```js
+function addition(num) {
+	return num + 1
+}
+```
+
+[5.Area of a Triangle](https://edabit.com/challenge/3CaszbdZYGN4otQD8)
+
+Solution
+
+```js
+function triArea(base, height) {
+	return base*height/2
+}
+```
+
+[6.Convert Age to Days](https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw)
+
+Solution
+
+```js
+function calcAge(age) {
+	return age * 365
+}
+```
+
+[7.Buggy Code (Part 1)](https://edabit.com/challenge/j7yQbF3J3rToHsDBP)
+
+Solution
+
+```js
+function cubes(a) {
+	return a ** 3
+}
+```
+
+[8.Return the First Element in an Array](https://edabit.com/challenge/QaApgtePE6QrCZ64o)
+
+Solution
+
+```js
+function getFirstValue(arr) {
+	return arr[0]
+}
+```
+
+[9.Power Calculator](https://edabit.com/challenge/wAdE9te55cowBLcPs)
+
+Solution
+
+```js
+function circuitPower(voltage, current) {
+	return voltage * current
+}
+```
+
+[10.Convert Hours into Seconds](https://edabit.com/challenge/6AnQqiEjkJdZrWhPS)
+
+Solution
+
+```js
+	function howManySeconds(hours) {
+	return hours * 3600
+}
+```
+
+[11.Maximum Edge of a Triangle](https://edabit.com/challenge/nhXofMMyrowMyr9Nv)
+
+Solution
+
+```js
+function nextEdge(side1, side2) {
+	return (side1 + side2) - 1 
+}
+```
+
+[12.Return the Remainder from Two Numbers](https://edabit.com/challenge/Q2j5FTFtsk7PdzrQk)
+
+Solution
+
+```js
+function remainder(x, y) {
+	return x % y
+}
+```
