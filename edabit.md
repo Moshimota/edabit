@@ -107,3 +107,48 @@ function remainder(x, y) {
 	return x % y
 }
 ```
+
+[13.Find the Perimeter of a Rectangle](https://edabit.com/challenge/XnJ24rWW7iJkNrtsh)
+
+Solution
+
+```js
+function findPerimeter(length, width) {
+	return (length + width) * 2
+}
+```
+
+[14.Return Something to Me!](https://edabit.com/challenge/MvZK536X7fyrWH8Qc)
+
+Solution
+
+```js
+function giveMeSomething(a) {
+	return "something " + a
+}
+```
+
+[15.Correct the Mistakes](https://edabit.com/challenge/ks3vMrqdnW3CQ3F4i)
+
+Solution
+
+```js
+function squared(b) {
+	return b * b
+}
+```
+
+[16.Is the Number Less than or Equal to Zero?](https://edabit.com/challenge/PTiLYyb4A69KZtBCg)
+
+Solution
+
+```js
+function lessThanOrEqualToZero(num) {
+	if (num <= 0){
+		return true
+	}
+	else{
+		return false
+	}
+}
+```
