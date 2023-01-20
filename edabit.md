@@ -152,3 +152,47 @@ function lessThanOrEqualToZero(num) {
 	}
 }
 ```
+
+[17.Sum of Polygon Angles](https://edabit.com/challenge/fBJyQSe5Jmbm9hPAG)
+
+Solution
+
+```js
+function sumPolygon(n) {
+	return (n - 2) * 180
+}
+```
+
+[18.Basketball Points](https://edabit.com/challenge/Y46Xp2pcvTB77bmdD)
+
+Solution
+
+```js
+function points(twoPointers, threePointers) {
+	return twoPointers*2+threePointers*3
+}
+```
+
+[19.Basic Variable Assignment](https://edabit.com/challenge/ZNwHGgHvsdnYwJ5WK)
+
+Solution
+
+```js
+function nameString(name){
+	return name + "Edabit"
+}
+```
+
+[20.Less Than 100?](https://edabit.com/challenge/9MjEpkL7yAjAqiH58)
+
+Solution
+
+```js
+function lessThan100(a, b) {
+	if (a+b<100){
+		return true
+	}else{
+		return false
+	}
+}
+```
