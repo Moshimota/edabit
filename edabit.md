@@ -196,3 +196,49 @@ function lessThan100(a, b) {
 	}
 }
 ```
+
+[21.Buggy Code (Part 5)](https://edabit.com/challenge/4iCsexZgmDEMMxj46)
+
+Solution
+
+```js
+function printArray(number) {
+  var newArray = [];
+
+  for(var i = 1; i <= number; i++) {
+    newArray.push(i);
+  }
+
+  return newArray;
+}
+```
+
+[22.Buggy Code (Part 7)](https://edabit.com/challenge/CCGBig9eRPFzAHv46)
+
+Solution
+
+```js
+function swap(a, b) {
+	return [b, a]
+}
+```
+
+[23.The Farm Problem](https://edabit.com/challenge/8Qg78sf5SNDEANKti)
+
+Solution
+
+```js
+function animals(chickens, cows, pigs) {
+	return chickens*2+cows*4+pigs*4
+}
+```
+
+[24.Using the "&&" Operator](https://edabit.com/challenge/vJCZmgvvDjehyDcDK)
+
+Solution
+
+```js
+function and(a, b) {
+	return a && b
+}
+```
