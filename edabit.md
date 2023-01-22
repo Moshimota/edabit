@@ -242,3 +242,53 @@ function and(a, b) {
 	return a && b
 }
 ```
+
+[25.Are the Numbers Equal?](https://edabit.com/challenge/QSnaSH5S3oxZkwcNc)
+
+Solution
+
+```js
+function isSameNum(num1, num2) {
+	 if ( num1 === num2 ){
+		 return true
+	 }
+	else{
+		return false
+	}
+}
+```
+
+[26.Football Points](https://edabit.com/challenge/GwvwXHWCThHZrR7xu)
+
+Solution
+
+```js
+function footballPoints(wins, draws, losses) {
+	return wins*3+draws
+}
+```
+
+[27.Convert Hours and Minutes into Seconds](https://edabit.com/challenge/JesaFi5ntBEbGT8bu)
+
+Solution
+
+```js
+function convert(hours, minutes) {
+	return hours*3600+minutes*60
+}
+```
+
+[28.Fix the Expression](https://edabit.com/challenge/FipbQSYquQLPZ8QXG)
+
+Solution
+
+```js
+function isSeven(x) {
+	if ( x === 7){
+		return true
+	}
+	else{
+		return false
+	}
+}
+```
