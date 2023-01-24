@@ -292,3 +292,104 @@ function isSeven(x) {
 	}
 }
 ```
+
+[29.Equality Check](https://edabit.com/challenge/BGvTMfwxYDRbtaTJ3)
+
+Solution
+
+```js
+function checkEquality(a, b) {
+  if (a===b){
+		return true
+	}
+	else{
+		return false
+	}
+}
+```
+
+[30.Profitable Gamble](https://edabit.com/challenge/ghbHrRnRiDz9fvQNF)
+
+Solution
+
+```js
+function profitableGamble(prob, prize, pay) {
+	if(prob*prize>pay){
+		return true
+	}else{
+		return false
+	}
+}
+```
+
+[31.Boolean to String Conversion](https://edabit.com/challenge/KSTkFSnaYBJdo6PHx)
+
+Solution
+
+```js
+function boolToString(flag) {
+	return String(flag)
+}
+```
+
+[32.Using Arrow Functions](https://edabit.com/challenge/QkvDge63crdGnMfvM)
+
+Solution
+
+```js
+arrowFunc = (num) =>{
+	return num
+}
+```
+
+[33.Frames Per Second](https://edabit.com/challenge/d9suvbchE2bnHNQuK)
+
+Solution
+
+```js
+function frames(minutes, fps) {
+	return  minutes*60*fps
+}
+```
+
+[34.Miserable Parody of a Calculator](https://edabit.com/challenge/fh9i7k936rvfjnCYR)
+
+Solution
+
+```js
+function calculator(str) {
+	return eval(str)
+}
+```
+
+[35.Buggy Code (Part 4)](https://edabit.com/challenge/4SmqXvQtL6qRgzfha)
+
+Solution
+
+```js
+function greeting(name) {
+  if(name == "Mubashir") {
+    return "Hello, my Love!";
+  }else{
+		return "Hello, " + name + "!";
+	}
+}
+```
+
+[36.Two Makes Ten](https://edabit.com/challenge/5erCDJ8eJDrXkmwTK)
+
+Solution
+
+```js
+function makesTen(a, b) {
+	if (a+b==10){
+		return true
+	}else if (a==10){
+		return true
+	}else if (b==10){
+		return true
+	}else{
+		return false
+	}
+}
+```
