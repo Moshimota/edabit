@@ -393,3 +393,96 @@ function makesTen(a, b) {
 	}
 }
 ```
+
+[37.Let's Fuel Up!](https://edabit.com/challenge/YMWDcSuYwYvve3HZj)
+
+Solution
+
+```js
+function calculateFuel(n) {
+	if(n<10){
+		return 100
+	}else{
+		return n*10
+	}
+}
+```
+
+[38.Buggy Code (Part 2)](https://edabit.com/challenge/uE9AJ4sSrrpSASMpu)
+
+Solution
+
+```js
+function maxNum(n1,n2) {
+	if (n1<n2) {
+	  return n2
+	}
+  else {
+	return n1
+  }
+}
+```
+
+[39.Pair Management](https://edabit.com/challenge/BFnsRqe8PFvEwcRNt)
+
+Solution
+
+```js
+function makePair(num1, num2) {
+	return [num1,num2]
+}
+```
+
+[40.Compare Strings by Count of Characters](https://edabit.com/challenge/yHGowWucg3k2kJdZ4)
+
+Solution
+
+```js
+function comp(str1, str2) {
+	return str1.length==str2.length ? true : false
+}
+```
+
+[41.Is the String Empty?](https://edabit.com/challenge/EzbfiquDoAc2Zc9FL)
+
+Solution
+
+```js
+function isEmpty(s) {
+	if (s.length == 0){
+		return true
+	}else{
+		return false
+	}
+}
+```
+
+[42.Check if an Integer is Divisible By Five](https://edabit.com/challenge/iBQYbSHZGhpktLRdn)
+
+Solution
+
+```js
+function divisibleByFive(n) {
+	return n%5==0 ? true:false
+}
+```
+
+[43.Multiple of 100](https://edabit.com/challenge/qMr6wYGr6NaXAPQGF)
+
+Solution
+
+```js
+function divisible(num) {
+	return num%100==0 ? true : false
+}
+```
+
+[44.Recursion: Length of a String](https://edabit.com/challenge/4MSbtYFBiRtxHEkY8)
+
+Solution
+
+```js
+function length(str) {
+	return str.length
+}
+```
