@@ -486,3 +486,248 @@ function length(str) {
 	return str.length
 }
 ```
+
+[45.Divides Evenly](https://edabit.com/challenge/JfB9mWmbwYHbupxCB)
+
+Solution
+
+```js
+function dividesEvenly(a, b) {
+	return a%b==0 ? true : false
+}
+```
+
+[46.Return a String as an Integer](https://edabit.com/challenge/rGsgEswWuW339yNxY)
+
+Solution
+
+```js
+function stringInt(str) {
+	return Number(str)
+}
+```
+
+[47.Area of a Rectangle](https://edabit.com/challenge/g6b9HqkXqWu6GpfTo)
+
+Solution
+
+```js
+function area(h, w) {
+	if (h*w<=0){
+		return -1
+	}else if(h<=0){
+		return -1
+	}else if(w<=0){
+		return -1
+	}else{
+		return h*w
+	}
+}
+```
+
+[48.Minimal I: If Boolean Then Boolean](https://edabit.com/challenge/nEdLGbAZQ5LaiumP6)
+
+Solution
+
+```js
+function isEven(n) {
+	if (n % 2 === 0) {
+		return true
+	}
+	else{
+		return false
+	}
+}
+```
+
+[49.Concatenate First and Last Name into One String](https://edabit.com/challenge/RQwdZmtrW8mCnuCMN)
+
+Solution
+
+```js
+function concatName(firstName, lastName) {
+	return lastName+", "+firstName
+}
+```
+
+[50.Buggy Code](https://edabit.com/challenge/r2MbSxquAGPnDkjQx)
+
+Solution
+
+```js
+function has_bugs(buggy_code) {
+	if (buggy_code==true) {
+		return 'sad days'
+	} else{
+		return "it's a good day"
+	}
+}
+```
+
+[51.Evaluate an Equation](https://edabit.com/challenge/n2bFd2enCnHJkTwsK)
+
+Solution
+
+```js
+function eq(evaluate) {
+	return eval(evaluate)
+}
+```
+
+[52.Solve the Equation](https://edabit.com/challenge/X6PDfNfJwcB4TkQuQ)
+
+Solution
+
+```js
+function equation(s) {
+	return eval(s)
+}
+```
+
+[53.Learn Lodash: _.drop, Drop the First Elements of an Array](https://edabit.com/challenge/NMdKxEradTmpNnomZ)
+
+Solution
+
+```js
+function drop(arr, val = 1) {
+	return arr.slice(val)
+}
+```
+
+[54.Upvotes vs Downvotes](https://edabit.com/challenge/654ABGmNS5GqscE8C)
+
+Solution
+
+```js
+function getVoteCount(votes) {
+	return votes.upvotes-votes.downvotes
+}
+```
+
+[55.Return Negative](https://edabit.com/challenge/iDxwkarcJcmkDA8tq)
+
+Solution
+
+```js
+function returnNegative(n) {
+	if(n<=0){
+		return n
+	}else{
+		return n * -1
+	}
+}
+```
+
+[56.Radians to Degrees](https://edabit.com/challenge/8rhnqxJFiJm5tS4G7)
+
+Solution
+
+```js
+function radiansToDegrees(rad) {
+	return rad*57.29577951308232
+}
+```
+
+[56.Reverse an Array](https://edabit.com/challenge/kJQYTCCWSnzhXG9dn)
+
+Solution
+
+```js
+function reverse(arr) {
+	return arr.reverse()
+}
+```
+
+[57.Movie Theatre Admittance](https://edabit.com/challenge/fP7gFvDaBymoZrXFx)
+
+Solution
+
+```js
+function acceptIntoMovie(age, isSupervised) {
+	if (age>=15 || isSupervised==true){
+		return true
+	}else{
+		return false
+	}
+}
+```
+
+[58.Fix the Bug: Simple Array Manipulation](https://edabit.com/challenge/jipHTDkabftop5irE)
+
+Solution
+
+```js
+function incrementItems(arr) {
+	for (let i = 0; i < arr.length; i++){
+		arr[i] = arr[i] + 1
+	}
+	return arr
+}
+```
+
+[59.Drinks Allowed?](https://edabit.com/challenge/PwpJNJiysvq3AuYJ8)
+
+Solution
+
+```js
+function shouldServeDrinks(age, onBreak) {
+	return age>=18&& !onBreak?true:false
+}
+```
+
+[60.Century Crisis](https://edabit.com/challenge/DcmB9Ycm58FdkPe7k)
+
+Solution
+
+```js
+function futurePeople(population, n) {
+	return population+n*360
+}
+```
+
+[61.Format I: Template String](https://edabit.com/challenge/DCmM4Eo6GQfrJoKXc)
+
+Solution
+
+```js
+function format(a, b, c) {
+	const template = "Their names were: "+a+", "+b+" and "+c+"."
+	return template
+}
+```
+
+[62.Arrow Functions](https://edabit.com/challenge/qcw8QBqa4amN2x4q4)
+
+Solution
+
+```js
+function add2(x) {
+	return x + 2;
+}
+
+function add3(x) {
+	return x + 3;
+}
+
+function add5(x) {
+	return x + 5;
+}
+
+function add7(x) {
+	return x + 7;
+}
+
+function add11(x) {
+	return x + 11;
+}
+```
+
+[63.Using Ternary Operators](https://edabit.com/challenge/32rk4qSmtrB6oJGyn)
+
+Solution
+
+```js
+function yeah_nope(bool) {
+	return bool==true ? "yeah":"nope"
+}
+```
