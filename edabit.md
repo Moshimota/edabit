@@ -731,3 +731,95 @@ function yeah_nope(bool) {
 	return bool==true ? "yeah":"nope"
 }
 ```
+[65.Minimal IV: if-else if-else Inferno](https://edabit.com/challenge/MiLoSm7STCWcrPC3k)
+
+Solution
+
+```js
+function equilibrium (x) {
+	if (x > 0) {
+		return "positive"
+	} else if (x < 0) {
+		return "negative"
+	} else {
+		return true
+	}
+}
+```
+
+[66.Is the String Odd or Even?](https://edabit.com/challenge/2tcuBxn37oouMeErN)
+
+Solution
+
+```js
+function oddOrEven(s) {
+	return s.length % 2 == 0 ? true:false
+}
+```
+
+[67.ES6: Destructuring Arrays I](https://edabit.com/challenge/sWAEoTbXA4bexBPb6)
+
+Solution
+
+```js
+const arr = [1, 2, 3, 4, 5, 6]
+let a = arr[0]
+let b = arr[1]
+console.log(a)
+console.log(b)
+```
+
+[68.Inches to Feet](https://edabit.com/challenge/fZqTozX8XHZxqcdA8)
+
+Solution
+
+```js
+function inchesToFeet(inches) {
+	return inches / 12
+}
+```
+
+[69.I'd Like a New Shade of Blue, Please](https://edabit.com/challenge/2rjHtbg32PrtZdF66)
+
+Solution
+
+```js
+function howManyWalls(n, w, h) {
+	return Math.floor(n / (w*h))
+}
+```
+
+[70.To the Power of _____](https://edabit.com/challenge/H25aG5aAdmFcMpBsg)
+
+Solution
+
+```js
+function calculateExponent(num, exp) {
+	return num ** exp
+}
+```
+
+[71.Return the Last Element in an Array](https://edabit.com/challenge/7JBTN4TbaxJQMdX9W)
+
+Solution
+
+```js
+function getLastItem(arr) {
+	return arr[arr.length -1]
+}
+```
+
+[72.String and Number Conversions](https://edabit.com/challenge/svGRKq2Z7SnZiqYwy)
+
+Solution
+
+```js
+function intToString(num) {
+	return String(num)
+}
+
+
+function stringToInt(num) {
+	return +num
+}
+```
