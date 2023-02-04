@@ -823,3 +823,90 @@ function stringToInt(num) {
 	return +num
 }
 ```
+[73.On/Off Switches](https://edabit.com/challenge/EZ4H6A8pBeTYfZzQe)
+
+Solution
+
+```js
+function posCom(num) {
+	return 2**num
+}
+```
+
+[74.Among Us Imposter Formula](https://edabit.com/challenge/ihpAv2EBCxDD27T3P)
+
+Solution
+
+```js
+function imposterFormula(i, p) {
+	return Math.round(100 * (i / p))+"%"
+}
+```
+
+[75.Find Out the Leap Year](https://edabit.com/challenge/xKKwvL2zYC8pEvMLG)
+
+Solution
+
+```js
+function leapYear(year) {
+	return year%4==0?true:false
+}
+```
+
+[76.Many Operators!](https://edabit.com/challenge/7Qx4M32b94h3P4dyt)
+
+Solution
+
+```js
+function operate(num1, num2, operator) {
+	  if(operator=="+"){
+			return num1+num2
+		}else if(operator=="-"){
+			return num1-num2
+		}else if(operator=="*"){
+			return num1*num2
+		}else if(operator=="%"){
+			return num1%num2
+		}
+		else{
+			return num1/num2
+		}
+}
+```
+
+[77.Moving House](https://edabit.com/challenge/HbjxJg3jqT54vK7uw)
+
+Solution
+
+```js
+function yearsInOneHouse(age, moves) {
+	return Math.round(age/(moves+1))
+}
+```
+
+[78.Circle or Square](https://edabit.com/challenge/D8DDFMFK8RaWWmcGY)
+
+Solution
+
+```js
+```
+
+[79.Функция високосного года ⌚](https://edabit.com/challenge/wBYQnCytRFNxsL4Gr)
+
+Solution
+
+```js
+function leapYear(year) {
+	return year%4==0?true:false
+}
+```
+
+[80.Word without First Character](https://edabit.com/challenge/Me4pMDq7yX2XzHiYc)
+
+Solution
+
+```js
+function newWord(str) {
+	return str.slice(1)
+}
+```
