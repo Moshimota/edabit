@@ -910,3 +910,116 @@ function newWord(str) {
 	return str.slice(1)
 }
 ```
+
+[81.Flip the Boolean](https://edabit.com/challenge/m5j4mTviyorMfMDvn)
+
+Solution
+
+```js
+function flipBool(b) {
+	return b==1?0:1
+}
+```
+
+[82.Name Greeting!](https://edabit.com/challenge/6kdGMdd78jpZ45ujo)
+
+Solution
+
+```js
+const helloName = name => {
+	return "Hello "+name+"!"
+}
+```
+
+[83.Is the Number Even or Odd?](https://edabit.com/challenge/kuzB5CMXiKDEYKXAP)
+
+Solution
+
+```js
+function isEvenOrOdd(num) {
+	return num%2!=0 ? "odd":"even"
+}
+```
+
+[84.Return Types](https://edabit.com/challenge/QWmvQsrSuQRmEN8ne)
+
+Solution
+
+```js
+```
+
+[85.Fix the Error: Check Whether a Given Number Is Odd](https://edabit.com/challenge/7rw9NgXoGZuyoJjZy)
+
+Solution
+
+```js
+```
+
+[86.Stack the Boxes](https://edabit.com/challenge/QifJBFwg32GNdiWQa)
+
+Solution
+
+```js
+function stackBoxes(n) {
+	return n**2
+}
+```
+
+[87.Triangle and Parallelogram Area Finder](https://edabit.com/challenge/Z5nLWN9XscsuRi2oT)
+
+Solution
+
+```js
+function areaShape(base, height, shape) {
+	if (shape=="triangle"){
+		return base*height/2
+	}else{
+		return base*height
+	}
+}
+```
+
+[88.Convert an Array to a String](https://edabit.com/challenge/BLJ5SyhMoZD892G7w)
+
+Solution
+
+```js
+```
+
+[89.Concatenating Two Integer Arrays](https://edabit.com/challenge/CzPEsTuXfE8J8vknX)
+
+
+Solution
+
+```js
+function concat(arr1, arr2) {
+	return arr1+arr2
+}
+```
+
+[90.Find the Index](https://edabit.com/challenge/9ApjPggCLGiPt573m)
+
+Solution
+
+```js
+function findIndex(arr, str) {
+	return arr.indexOf(str)
+}
+```
+
+[91.Array Indexing](https://edabit.com/challenge/ZZ82YaHmPZRewQNYH)
+
+Solution
+
+```js
+function valueAt(arr, i) {
+	return arr[Math.floor(i)]
+}
+```
+
+[92.Convert All Array Items to String](https://edabit.com/challenge/TihiK4mBiYsdGuR5H)
+
+Solution
+
+```js
+```
