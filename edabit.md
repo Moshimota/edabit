@@ -889,6 +889,9 @@ function yearsInOneHouse(age, moves) {
 Solution
 
 ```js
+function circle_or_square(rad, area){
+return 2*3.14*rad > area**0.5*4 ? true:false
+}
 ```
 
 [79.Функция високосного года ⌚](https://edabit.com/challenge/wBYQnCytRFNxsL4Gr)
@@ -946,6 +949,9 @@ function isEvenOrOdd(num) {
 Solution
 
 ```js
+function arrayValuesTypes(arr) {
+	return arr.map(x=>typeof x)
+}
 ```
 
 [85.Fix the Error: Check Whether a Given Number Is Odd](https://edabit.com/challenge/7rw9NgXoGZuyoJjZy)
@@ -953,6 +959,9 @@ Solution
 Solution
 
 ```js
+function isOdd(num) {
+	return num % 2 == 1 || num % 2 < 0 ? true : false
+}
 ```
 
 [86.Stack the Boxes](https://edabit.com/challenge/QifJBFwg32GNdiWQa)
@@ -984,6 +993,9 @@ function areaShape(base, height, shape) {
 Solution
 
 ```js
+function arrayToString(arr) {
+	return arr.join("")
+}
 ```
 
 [89.Concatenating Two Integer Arrays](https://edabit.com/challenge/CzPEsTuXfE8J8vknX)
@@ -1022,4 +1034,7 @@ function valueAt(arr, i) {
 Solution
 
 ```js
+function parseArray(arr) {
+	return arr.map(x => String(x))
+}
 ```
