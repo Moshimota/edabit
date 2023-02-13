@@ -1038,3 +1038,133 @@ function parseArray(arr) {
 	return arr.map(x => String(x))
 }
 ```
+
+[93.Front 3 - Slice Check Repeat Concatenate](https://edabit.com/challenge/2tGbjoawAoP5rKGjy)
+
+Solution
+
+```js
+function frontThree(str) {
+	if(str.length == 2){
+		return str[0]+str[1]+str[0]+str[1]+str[0]+str[1]
+	}else if(str.length ==1){
+		return str[0]+str[0]+str[0]
+	}else if (str.length == 0){
+		return "
+	}
+	else{
+		return str[0]+str[1]+str[2]+str[0]+str[1]+str[2]+str[0]+str[1]+str[2]
+	}
+}
+```
+
+[94.Buggy Code (Part 3)](https://edabit.com/challenge/9cB7BgGkeDcKwwhxX)
+
+Solution
+
+```js
+function sumArray(arr) {
+	sum = 0
+  for (let i=0; i<arr.length; i++) {
+	  sum+=arr[i]
+	}
+  return sum
+}
+```
+
+[95.Find the Index (Part #2)](https://edabit.com/challenge/z6Pxiw289JtaE2ndL)
+
+Solution
+
+```js
+function search(arr, item) {
+	if(arr.indexOf(item)<= 0){
+		 return -1
+	}else{
+		return arr.indexOf(item)
+	}
+}
+```
+
+[96.Word Numbers!](https://edabit.com/challenge/ghkYG7dnSKd5NWoyt)
+
+Solution
+
+```js
+function word(s) {
+	if(s == "one"){
+		return 1
+	}else if (s == "two"){
+		return 2
+	}else if (s == "three"){
+		return 3
+	}else if (s == "four"){
+		return 4
+	}else if (s == "five"){
+		return 5
+	}else if (s == "six"){
+		return 6
+	}else if (s == "seven"){
+		return 7
+	}else if (s == "eight"){
+		return 8
+	}else if (s == "nine"){
+		return 9
+	}else if (s == "zero"){
+		return 0
+	}
+}
+```
+
+[97.Minimal IX: This or That](https://edabit.com/challenge/Rph4mYq5qtT48HCLY)
+
+Solution
+
+```js
+function oneOfThese(a,b,c,d) {
+	if (a)
+		return a;
+	else if (b)
+		return b;
+  else if (c)
+		return c;
+  else if (d)
+		return d;
+	else
+		return "not found";
+}
+```
+
+[98.Convert All Array Items to String](https://edabit.com/challenge/TihiK4mBiYsdGuR5H)
+
+Solution
+
+```js
+function parseArray(arr) {
+	return arr.map(x => String(x))
+}
+```
+
+[99.Check if an Array Contains a Given Number](https://edabit.com/challenge/SwyjHvkqwwQ2iJsoS)
+
+Solution
+
+```js
+function check(arr, el) {
+	return arr.includes(el) == 0 ? false : true
+}
+```
+
+[100.50-30-20 Strategy](https://edabit.com/challenge/MQL7KSftPQzrxdJw6)
+
+Solution
+
+```js
+function fiftyThirtyTwenty(ati) {
+		return {
+		"Needs" : ati * 0.5,
+		"Wants": ati * 0.3,
+		"Savings": ati * 0.2
+	};
+}
+```
